@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATuPuerta.ar</title>
+    <link href="https://file.myfontastic.com/57o8QjZrw5itckH9t83xM8/icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <span class="icon-menu" id="btn-menu"></span>
+            <h3>AtuPuerta.ar</h3>
+            <nav class="nav" id="nav">
+                <ul class="menu">
+                    <li class="menu-item"><a class="menu-link" href="./">Inicio</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#pedidos">Nuestras zonas</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#info-contenedor">¿Quienes somos?</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#footer">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="img/banner.png" alt="">
+            <div class="contenedor">
+                <h1 class="banner-titulo">ATuPuerta.ar</h1>
+                <p class="banner-txt">Bienvenidos a nuesto sitio web</p>
+                <form action="formulario.html">
+                    <button type="submit" class="contactanos">¡Haz un pedido!</button>
+                </form>
+                
+            </div>
+    </div>
+    <main class="main">
+        <section class="pedidos" id="pedidos">
+            
+            <div class="contenedor">
+                <h2 class="pedidos-titulo">PEDIDOS Y ZONAS</h2>
+
+            </div>
+            <p class="info-pedido">Mirá nuestras zonas de envío en el mapa y
+                nuestros precios</p>
+                <div class="botones">
+                    <form class="bot" method="" action="mapa.html">
+                        <p class="info-pedido">¡Mirá nuestros precios!</p>
+                        <button type="submit" class="btn-zona" >Ver zonas</button>
+                    </form>
+                    
+                        <form class="bot" method="" action="formulario.html">
+                            <p class="info-pedido">¡Haz un pedido!</p>
+                            <button type="submit" class="btn-pedidos">Hacer pedido</button>
+                        </form>
+                    </div>
+                <div class="mapa">
+                <div class="contenedor">
+                    <div class="mapa-iframe">
+                        <img src="img/LIMITES.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="info">
+            <div class="contenedor" >
+                <article class="info-columna">
+                    <img src="img/logo.jpeg" class="info-img" id="info-contenedor">
+                    <h2 class="info-titulo">¿QUIENES SOMOS?</h2>
+                    <p class="info-txt">Una agencia de envíos y mensajería 
+                        independiente radicada en la plata.</p>
+                </article>
+                <article class="info-columna">
+                    <img src="img/banner.jpg" class="info-img" alt="">
+                    <h2 class="info-titulo">¿QUÉ OFRECEMOS?</h2>
+                    <p class="info-txt">Ofrecemos envíos de:</p>
+                    <li class="info-txt">Locales</li>
+                    <li class="info-txt">Emprendimientos</li>
+                    <li class="info-txt">Retiros y envíos de paquetes</li>
+                    <li class="info-txt">Personas particulares</li>
+                    <p class="info-txt">Hacia o desde La Plata hasta sus 
+                        alrededores y hasta Capital Federal y sus 
+                        alrededores</p>
+                </article>
+                <article class="info-columna">
+                    <img src="img/entrega.jpg" class="info-img" alt="">
+                    <h2 class="info-titulo">BENEFICIOS DE TRABAJAR CON NOSOTROS</h2>
+                    <p class="info-txt">Contamos con repartidores calificados 
+                        para el traslado de sus envíos con experiencia y 
+                        conocimiento en el rubro, tenemos un estricto sistema 
+                        que cumple con los requerimientos para qué sea 
+                        transportado el alimento, caja u material delicado 
+                        de la mejor manera posible, estandarizando nuestra 
+                        manera de operar abocandonos qué el material recibido 
+                        llegue en las mejores condiciones.</p>
+                </article>
+            </div>
+        </section>
+        <form class="pedido-btn" action="formulario.html">
+            <button type="submit" class="btn-pedidos2"><img src="img/delivery.png" alt=""></button>
+        </form>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">ATuPuerta.ar</h2>
+                <p>Somos responsables, comprometidos y puntuales</p>
+            </div> 
+                <div class="social-media">
+                    
+                    <a href="https://instagram.com/atupuerta.ar?igshid=YmMyMTA2M2Y=" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+
+        <div class="line"></div>
+        <h2>Desarrollado por <a href="https://www.instagram.com/denieldiazr/" class="social">
+            @denieldiazr
+        </a></h2>
+    </footer>
+    <script src="menu.js"></script>
+</body>
+</html>

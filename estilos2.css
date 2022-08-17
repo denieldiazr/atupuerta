@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.logo{
+    width: 135px;
+    height: 60px;
+}
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+
+.header{
+    height: 70px;
+    background: #c79316;
+    
+}
+
+.header .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .contenedor h3{
+    margin-right: 15px;
+    margin-top: 25px;
+    color: white;
+    font-family:Arial;
+    font-weight: bold;
+}
+.logo, .icon-menu{
+    margin: 5px;
+    color: white;
+    padding-top: 5px;
+}
+.nav{
+    position: absolute;
+    top: 70px;
+    left: -100%;
+    width: 100%;
+    z-index: 100;
+    transition: all 0.5s;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+}
+
+.menu-link{
+    display: block;
+    padding: 22px;
+    background: #ffb507;
+    color: white;
+    height: 60px;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    font-size: 23px;
+    font-family:Arial;
+    font-weight: bold;
+}
+
+.menu-link:hover{
+    background: white;
+    color: #ffb507;
+}
+
+.muestrate{
+    left: 0;
+}
+.icon-menu{
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background-color: #ffb507;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.banner img{
+    width: 100%;
+}
+.banner{
+    position: relative;
+}
+.banner .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+
+.banner-titulo{
+    font-family:Arial;
+    font-size: 75px;
+}
+
+.banner-txt{
+    font-size: 25px;
+}
+
+.mapa{
+    background: rgb(0, 18, 71);
+    color:  #fff;
+    text-align: center;
+    margin-top: -19px;
+    
+}
+.mapa img{
+    padding: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.btn-pedidos6:hover{
+    cursor: pointer;
+    background: rgb(0, 36, 63,0.7);
+}
+.info-titulo{
+    padding-top: 50px;
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.btn-pedidos2{
+    height: 70px;
+    background: rgba(147, 29, 216);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 70px;
+}
+
+.btn-pedidos2:hover{
+    background: rgb(114, 23, 167);
+}
+
+.btn-pedidos3{
+    height: 70px;
+    background: rgb(184, 181, 0);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 70px;
+}
+
+.btn-pedidos3:hover{
+    background: rgb(158, 155, 0);
+}
+
+.btn-pedidos4{
+    height: 70px;
+    width: 70px;
+    background: rgba(255, 69, 69);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.btn-pedidos4:hover{
+    background: rgb(192, 50, 50);
+}
+.btn-pedidos5{
+    height: 70px;
+    width: 70px;
+    background: rgba(26, 206, 131);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.btn-pedidos5:hover{
+    background: rgb(18, 155, 98);
+}
+.pedido-btn2{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+}
+
+.btn-pedidos6{
+    height: 70px;
+    width: 70px;
+    background: #ffb507;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+}
+
+.btn-pedidos6:hover{
+    cursor: pointer;
+    background: #b37f08;
+}
+
+.footer-content{
+    justify-content: center;
+}
+.social-media{
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.social-media-icon{
+    margin-left: 0;
+}
+
+.social-media i{
+    margin-left: 0;
+
+}
+
+.contact-us{
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+footer{
+    background:#030714;
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact-us{
+    width: 40%;
+    color: white;
+}
+
+.brand{
+  font-weight: 500;
+  font-size: 40px;  
+  padding: 10px;
+}
+
+.brand+p{
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-right: 90px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin-top: -60px;
+}
+.social-media-icon:hover{
+    background: white;
+    color: #030714;
+}
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+h2,.social{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social:hover{
+    color: #ffb507;
+}
+
+@media(min-width:970px){
+    .nav{
+        position: static;
+        width: auto;
+        margin-right: 20px;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    .icon-menu{
+        display: none;
+    }
+
+    .menu-link{
+        border: none;
+        background: #c79316;
+    }
+    .header .contenedor {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: -350px;
+    }
+    .contenedor h3{
+        margin-top: 2050;
+    }
+    .banner img{
+        background: url("img/banner2.png");
+        overflow:hidden;
+    }
+    .mapa{
+        position: relative;
+        margin-top: -450px;
+    }
+
+    .banner .contenedor{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+    }
+
+    .info-img{
+        margin-top: -40px;
+    }
+    
+    .btn-pedidos6{
+        height: 80px;
+        width: 80px;
+    }
+
+    .btn-pedidos2{
+        height: 90px;
+        font-size: 30px;
+        width: 90px;
+    }
+    
+    .btn-pedidos3{
+        height: 90px;
+        font-size: 30px;
+        width: 90px;
+    }
+    
+    
+    .btn-pedidos4{ height: 90px;
+        font-size: 30px;
+        width: 90px;
+    }
+   
+    .btn-pedidos5{
+         height: 90px;
+        font-size: 30px;
+        width: 90px;
+    }
+    .btn-pedidos6{
+        height: 90px;
+        font-size: 30px;
+        width: 90px;
+    }
+}

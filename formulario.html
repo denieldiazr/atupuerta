@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos3.css">
+    <link href="https://file.myfontastic.com/57o8QjZrw5itckH9t83xM8/icons.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">    
+
+
+    <title>¡Haz tu pedido!</title>
+
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <span class="icon-menu" id="btn-menu"></span>
+            <h3>AtuPuerta.ar</h3>
+            <nav class="nav" id="nav">
+                <ul class="menu">
+                    <li class="menu-item"><a class="menu-link" href="./">Inicio</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#pedidos">Nuestros Sectores</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+        <div class="form2">
+            <h1 class="info-titulo">¡Haz tu pedido!</h1>
+        <div class="progressbar">
+                    <div class="progress" id="progress"></div>
+                    <div class="progres-steps progres-step-active" data-tittle="Zonas">1</div>
+                    <div class="progres-steps" data-tittle="Retiro">2</div>
+                    <div class="progres-steps" data-tittle="Destino">3</div>
+                    <div class="progres-steps" data-tittle="Pago">4</div>
+                </div>
+        </div>
+        
+        <form class="form">
+            <!-- Progressbar-->
+            
+                
+                    
+                
+            <!-- Steps -->
+
+
+            
+            
+            <div class="form-step form-step-active">
+                <div class="cont">
+                <h1 class="text-center">Pedir en La Plata</h1>
+            </div>
+                <div class="list">
+                    <div class="lugares cont25">
+                        <div>
+                            <div>
+                                <h1>CASCO URBANO</h1>
+                            </div>
+                            <h4>Limites: 72-117-32-31</h4>
+                        </div>
+                        <span class="down-arrow2">&blacktriangledown;</span>
+                        
+                    </div>
+                    <label for="" class="cont2" onclick="check()">
+                        <div>
+                            <div>
+                                <input type="checkbox" name="" class="task1" id="task1">
+                                <label for="" class="envio">Enviar a Casco urbano</label>
+                            </div> 
+                        </div>
+                        <span class="precio">260$</span>
+                        
+                    </label>
+                    <div class="lugares2 cont25">
+                        <div>
+                            <div>
+                                <h1>LOS HORNOS & SAN CARLOS</h1>
+                            </div>
+                            <h4>Limites: Entre 32 y 72</h4>
+                        </div>
+                        <span class="down-arrow3">&blacktriangledown;</span>
+                        
+                    </div>
+                    
+                    <label for="" class="cont3" onclick="check2()">
+                        <div>
+                            <div>
+                                <input type="checkbox" name="" class="task2" id="task2">
+                            <label for="" class="envio">Enviar hasta C.137</label>
+                            </div>
+                            
+                        </div>
+                        <span class="precio">310$</span>
+                        
+                    </label>
+                    <label for="" class="cont15" onclick="check3()">
+                        <div>
+                            <div>
+                                <input type="checkbox" name="" class="task3" id="task3">
+                            <label for="" class="envio">Enviar hasta C.143</label>
+                            </div>
+                            
+                        </div>
+                        <span class="precio">360$</span>
+                    </label>
+                </label>
+                <label for="" class="cont4" onclick="check4()">
+                    <div>
+                        <div>
+                            <input type="checkbox" name="" class="task4" id="task4">
+                        <label for="" class="envio">Enviar hasta C.149</label>
+                        </div>
+                        
+                    </div>
+                    <span class="precio">460$</span>
+                </label>
+                    
+                <div class="lugares3 cont25">
+                    <div>
+                        <div>
+                            <h1>TOLOSA</h1>
+                        </div>
+                        <h4>Limites: Entre 115 y 31</h4>
+                    </div>
+                    <span class="down-arrow4">&blacktriangledown;</span>
+                    
+                </div>
+                
+                <label for="" class="cont5" onclick="check5()">
+                    <div>
+                        <div>
+                            <input type="checkbox" name="" class="task5" id="task5">
+                        <label for="" class="envio">Enviar hasta C.526</label>
+                        </div>
+                         
+                    </div>
+                    <span class="precio">310$</span>
+                    
+                </label>
+                <label for="" class="cont6" onclick="check6()">
+                    <div>
+                        <div>
+                            <input type="checkbox" name="" class="task6" id="task6">
+                        <label for="" class="envio">Enviar hasta C.520</label>
+                        </div>
+                        
+                    </div>
+                    <span class="precio">360$</span>
+                </label>
+            </label>
+            <label for="" class="cont7" onclick="check7()">
+                <div>
+                    <div>
+                        <input type="checkbox" name="" class="task7" id="task7">
+                    <label for="" class="envio">Enviar hasta C.510</label>
+                    </div>
+                    
+                </div>
+                <span class="precio">460$</span>
+            </label>
+
+            <div class="lugares4 cont25">
+                <div>
+                    <div>
+                        <h1>VILLA ELVIRA</h1>
+                    </div>
+                    <h4>Limites: Entre 122 y 13</h4>
+                </div>
+                <span class="down-arrow5">&blacktriangledown;</span>
+                
+            </div>
+            
+            <label for="" class="cont8" onclick="check8()">
+                <div>
+                    <div>
+                        <input type="checkbox" name="" class="task8" id="task8">
+                    <label for="" class="envio">Enviar hasta C.80</label>
+                    </div>
+                </div>
+                <span class="precio">310$</span>
+                
+            </label>
+            <label for="" class="cont9" onclick="check9()">
+                <div>
+                    <div>
+                        <input type="checkbox" name="" class="task9" id="task9">
+                    <label for="" class="envio">Enviar hasta C.90</label>
+                    </div>
+                    
+                </div>
+                <span class="precio">360$</span>
+            </label>
+        </label>
+        <label for="" class="cont10" onclick="check10()">
+            <div>
+                <div>
+                    <input type="checkbox" name="" class="task10" id="task10">
+                <label for="" class="envio">Enviar hasta C.610</label>
+                </div>
+                
+            </div>
+            <span class="precio">460$</span>
+        </label>
+
+        <div class="lugares5 cont25">
+            <div>
+                <div>
+                    <h1>ALTOS DE SAN LORENZO</h1>
+                </div>
+                <h4>Limites: Entre 13 y 31</h4>
+            </div>
+            <span class="down-arrow6">&blacktriangledown;</span>
+        </div>
+        
+        <label for="" class="cont11" onclick="check11()">
+            <div>
+                <div>
+                    <input type="checkbox" name="" class="task11" id="task11">
+                <label for="" class="envio">Enviar hasta C.80</label>
+                </div>
+                
+            </div>
+            <span class="precio">310$</span>
+            
+        </label>
+
+        <div class="lugares6 cont25">
+            <div>
+                <div>
+                    <h1>GONNET</h1>
+                </div>
+                <h4>Limites: Entre 31 y 19</h4>
+            </div>
+            <span class="down-arrow7">&blacktriangledown;</span>
+        </div>
+        
+        <label for="" class="cont12" onclick="check12()">
+            <div>
+                <div>
+                    <input type="checkbox" name="" class="task12" id="task12">
+                <label for="" class="envio">Enviar desde C.510 hasta C.501</label>
+                </div>
+                
+            </div>
+            <span class="precio">530$</span>
+            
+        </label>
+
+
+        <div class="lugares7 cont25">
+            <div>
+                <div>
+                    <h1>CITYBELL</h1>
+                </div>
+                <h4>Centro</h4>
+            </div>
+            <span class="down-arrow8">&blacktriangledown;</span>
+        </div>
+        
+        <label for="" class="cont13" onclick="check13()">
+            <div>
+                <div>
+                    <input type="checkbox" name="" class="task13" id="task13">
+                <label for="" class="envio">TODO LO COMPRENDIDO</label>
+                </div>
+                
+            </div>
+            <span class="precio">730$</span>
+            
+        </label>
+
+        <div class="lugares8 cont25">
+            <div>
+                <div>
+                    <h1>VILLA ELISA</h1>
+                </div>
+                <h4>Centro</h4>
+            </div>
+            <span class="down-arrow9">&blacktriangledown;</span>
+        </div>
+        
+        <label for="" class="cont14" onclick="check14()">
+            <div>
+                <div>
+                    <input type="checkbox" name="" class="task14" id="task14">
+                <label for="" class="envio">TODO LO COMPRENDIDO</label>
+                </div>
+                
+            </div>
+            <span class="precio">900$</span>
+            
+        </label>
+        
+   
+    </div>
+
+                <div class="">
+                    <a href="" class="btn2">¿No encontrás tu zona?</a>
+                </div>
+        
+            <div class="">
+                    <a class="btn btn-next width-50 ml-auto">Siguiente</a>
+                </div>
+                
+                
+            </div>
+
+            <!--Opcion 2-->
+            <div class="form-step">
+                <div class="cont35">
+                    <h1 class="text-center">Ingresa tu datos</h1>
+                </div>
+                <div class="input-group">
+                    <label for="username">Nombre y Apellido</label>
+                    <input type="text" name="usuario" id="usuario" required>
+                </div>
+                <div class="input-group">
+                    <label for="username">Teléfono</label>
+                    <input type="text" name="usuario" id="usuario" required>
+                </div>
+                <div class="subtitulo">
+                    <h3 class="subtitulo">Dirección de Retiro</h3>
+                </div>
+                
+                <div class="input-group">
+                    <label for="username">Calle</label>
+                    <input type="text" name="usuario" id="usuario" required>
+                </div>
+                <div class="input-group">
+                    <label for="username">Numero</label>
+                    <input type="text" name="usuario" id="usuario" required>
+                </div>
+                <div class="input-group">
+                    <label for="username">Entre calles</label>
+                    <input type="text" name="usuario" id="usuario" required>
+                </div>
+                <div class="btns-group">
+                    <a  class="btn btn-prev">Anterior</a>
+                    <a  class="btn btn-next">Siguiente</a>
+                </div>
+            </div>
+            <!--Opcion 3-->
+            <div class="form-step">
+                <div class="cont35">
+                    <h1 class="text-center">Datos del destino</h1>
+                </div>
+                <div class="input-group">
+                    <label for="username">Nombre y Apellido Cliente</label>
+                    <input type="text" name="usuario" id="usuario" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="username">Calle</label>
+                    <input type="text" name="usuario" id="usuario" required>
+                </div>
+                <div class="input-group">
+                    <label for="username">Numero</label>
+                    <input type="text" name="usuario" id="usuario" required>
+                </div>
+                <div class="input-group">
+                    <label for="username">Entre calles</label>
+                    <input type="text" name="usuario" id="usuario" required>
+                </div>
+                <div class="btns-group">
+                    <a  class="btn btn-prev">Anterior</a>
+                    <a  class="btn btn-next">Siguiente</a>
+                </div>
+            </div>
+        </form>
+        
+        
+    
+    <footer class="footer">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">ATuPuerta.ar</h2>
+                <p>Somos responsables, comprometidos y puntuales</p>
+                </div> 
+                <div class="social-media">
+                    
+                    <a href="https://instagram.com/atupuerta.ar?igshid=YmMyMTA2M2Y=" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+
+        <div class="line"></div>
+        <h2>Desarrollado por <a href="https://www.instagram.com/denieldiazr/" class="social">
+            @denieldiazr
+        </a></h2>
+    </footer>
+    
+    <script src="formulario.js"></script>
+</body>
+</html>
